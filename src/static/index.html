@@ -6,9 +6,10 @@
 </head>
 <body>
 <form action="http://localhost:3010/rights" method="get">
-    <label for="username">Имя пользователя</label><br>
+    <label for="username">Имя пользователя<sup>*</sup></label><br>
     <input id="username" name="username" required><br><br>
     <button type="submit">Проверить</button>
+    <p>*Имя пользователя латинскими буквами. Если имя пользователя на русском языке, то он будет не найден.</p>
 </form>
 </body>
 </html>

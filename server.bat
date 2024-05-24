@@ -1,3 +1,3 @@
 @echo off
-start npm start
+start npm run build-start
 start http://localhost:3010
