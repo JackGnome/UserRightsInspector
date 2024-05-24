@@ -4,7 +4,9 @@
     "description": "Необходимо написать простое web-приложение с использованием node.js+node-addon-api (C++)+WinAPI для проверки привилегии\r пользователя (например, Администратор/Пользователь/Гость) в списке пользователей операционной системы Windows.",
     "main": "src/main.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/main.js",
+        "build": "npm i"
     },
     "author": "",
     "license": "ISC",
